@@ -1,6 +1,6 @@
 #!/bin/bash
 
-jupyter-nbconvert --to slides slides.ipynb --reveal-prefix=reveal.js
+jupyter-nbconvert --to slides Open-Class-Makers-Institute.ipynb --reveal-prefix=reveal.js
 mv slides.slides.html  index.html
 mkdir -p /tmp/workspace
 cp -r * /tmp/workspace/
